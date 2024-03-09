@@ -1,0 +1,1 @@
+These are my notes on the project task page. This project is called "Build a Mario Database." The URL for the page which these notes are on is https://www.freecodecamp.org/learn/relational-database/learn-relational-databases-by-building-a-mario-database/build-a-mario-database  
