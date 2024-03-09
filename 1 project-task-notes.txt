@@ -1,1 +1,31 @@
-These are my notes on the project task page. This project is called "Build a Mario Database." The URL for the page which these notes are on is https://www.freecodecamp.org/learn/relational-database/learn-relational-databases-by-building-a-mario-database/build-a-mario-database  
+These are my notes on the project task page. This project is called "Build a Celestial Bodies Database." The URL for the page which these notes are on is https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database 
+
+- Building a database of celestial bodies using PostgreSQL
+	-> The previous guided project in the course was building a PostgreSQL database
+	-> This is similar in the sense that we are building a database, but we already have the benefit of being introduced to the course material 
+	-> The notes from the previous guided project 
+
+- Running the guided project
+	-> It's completed in VSCode in the browser, in a Gitpod environment 
+	-> Open the command palette, and enter `CodeRoad: Start`
+	-> Then complete the guided project 
+		-> There are user stories which are described in it 
+		-> You need to pass all the tests in it, past step 1
+		-> Part of completing this is saving the database you make while you complete the guided project 
+		-> This will prompt you to save the database as a universe.sql file 
+		-> When you complete the guided project, you need to be logged into the freeCodeCamp website in one tab - and then to complete the guided project in the other tab 
+		-> Once a certain level of progress has been made in one tab, the other one will log this 
+	-> Completing the project gives you files 
+	-> You upload those files to GitHub
+	-> Then you submit a link to the repository with those files
+	-> They want a universe.sql file <- this is the one which is exported when you complete the guided project  
+
+Important points:
+	-> Take the notes from the previous guided project, and use them to help you with this -> it's making a similar database 
+	-> It's in a Gitpod environment -> CodeRoad: Start in the command palette
+	-> Have both tabs open when you complete the guided project or the progress might not be saved
+	-> Take the outputted file from completing the project, push it to GitHub and submit the link to its repository 
+
+-> It's the same as the previous course, except that the situation where the skills are being applied is different 
+-> And this time we are submitting a link when it's done -> which they will prompt you into 
+-> So you complete this course, as with the previous course, and refer back to the notes you made when you did the previous course 
