@@ -1,0 +1,28 @@
+This file explains my solution to the project task, in the project universe.sql file.
+
+The first four lines of the file create the database: 
+	-> We are getting rid of the universe database if it exists and creating a new one <- to initialise this iteration of the database 
+	-> We connect to this 
+
+Creating the tables:
+	-> We are creating 5 tables -> `galaxy_star`, `moon`, `planet` and `star` 
+	-> Then adding columns to each of them, which store information about each celestial body 
+		-> For example if that body is spherical -> the description of the object, age, distance from Earth, presence of life, the planet / star / galaxy it belongs to 
+		-> There are also identifiers for those specific bodies 
+
+Adding keys and populating the tables with data:
+	-> We are generating unique IDs for each table <- the sequences are set to specific values for this to happen 
+		-> Default values are also set for certain columns using this
+	-> We are giving several of these columns default values using sequences and filling the information in the tables with sample data 
+	-> We then generate unique foreign keys for the tables <- so we can form different relations between the tables 
+	-> The exercise is to practice creating a database -> so we fill that database with sample data  
+
+-> We are using PostgreSQL to create the `universe` database
+-> This is a relational database representing celestial bodies 
+-> This contains sequences, relationships and tables filled with sample data for these celestial bodies 
+	-> These sequences are for the unique IDs which each table has 
+	-> Then since it is a database exercise, the data the tables are filled with is sample data
+	-> We also have multiple tables, which we are relating using foreign keys - so the database is relational 
+	-> Each of those tables has its own set of unique keys as well 
+	-> So we can ID the data in one table, and then relate the data between the different tables using the foreign keys 
+-> At the end of the file, we perform a database dump -> this saves the database
